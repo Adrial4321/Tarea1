@@ -1,0 +1,23 @@
+main
+	Sound_Init
+	Tone2
+		Sound_Play
+			Get_Fosc_kHz
+			Mul_32x32_U
+			Div_32x32_U
+			Div_16X16_U
+			Delay_Cyc
+	Tone1
+		Sound_Play
+			Get_Fosc_kHz
+			Mul_32x32_U
+			Div_32x32_U
+			Div_16X16_U
+			Delay_Cyc
+	Tone3
+		Sound_Play
+			Get_Fosc_kHz
+			Mul_32x32_U
+			Div_32x32_U
+			Div_16X16_U
+			Delay_Cyc
